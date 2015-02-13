@@ -12,4 +12,4 @@ Nevertheless, you can use pyCUDAREVERSE
 - to have fun with GPUs
 - to visualize the stuff (matplotlib, mayavi) you have calculate with CUDA
 
-Please note, there is pycuda. pyCUREVERSE aims to provide bindings on the lowes level possible (no, ctypes is an alternative)
+Please note, there is pycuda. pyCUREVERSE aims to provide bindings on the lowest level possible.
