@@ -34,6 +34,6 @@ NEWLIBNAME=pymylib
 rename:
 	sed -i 's/pyCUREVERSE/$(NEWLIBNAME)/g' *
 	mv pyCUREVERSE.cu  $(NEWLIBNAME).cu
-	mv pyCUREVERSE.cuh $(NEWLIBNAME).cu
+	mv pyCUREVERSE.cuh $(NEWLIBNAME).cuh
 	mv pyCUREVERSE.i   $(NEWLIBNAME).i          
 
